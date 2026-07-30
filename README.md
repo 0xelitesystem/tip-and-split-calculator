@@ -33,6 +33,10 @@ Everything runs client-side. No analytics, no cookies, no network calls, no loca
 - [invoice-total-builder](https://github.com/0xelitesystem/invoice-total-builder)
 - [savings-goal-planner](https://github.com/0xelitesystem/savings-goal-planner)
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT, copyright 0xelitesystem 2026.
