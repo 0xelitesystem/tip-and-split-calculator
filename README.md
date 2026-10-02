@@ -18,15 +18,43 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 - Not a payments tool. It does not move money or connect to any account
 - Not a receipt scanner. You enter the bill total yourself
 
-## Use it
+## Use
 
 Open the hosted page: https://0xelitesystem.github.io/tip-and-split-calculator/
 
 Or download `index.html` and open it in any browser. It works offline.
 
+1. Enter the bill amount.
+2. Pick a tip preset (15, 18, 20 or 25 percent) or type a tip percent.
+3. Set how many people to split between.
+4. Optionally tick "Round each person up to the nearest" and set the dollar amount. Results update as you type.
+
+## Why this exists
+
+Splitting a check with tip in your head goes wrong at the table, and most calculator sites come wrapped in ads and trackers. This does the math locally. It is one HTML file with no tracking and no network calls, released under MIT.
+
 ## Privacy
 
 Everything runs client-side. No analytics, no cookies, no network calls, no local storage.
+
+One exception to "no local storage": your light or dark theme choice is saved in localStorage under the key `theme`. Nothing you type is stored.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/tip-and-split-calculator
+cd tip-and-split-calculator
+```
+
+Open `index.html` in any browser. Or serve the folder and visit http://localhost:8000:
+
+```
+python -m http.server 8000
+```
+
+## Build
+
+No build step. The whole tool is one `index.html` file with inline CSS and JavaScript.
 
 ## Related
 
