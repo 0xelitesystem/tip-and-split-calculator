@@ -170,4 +170,4 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ## License
 
-MIT, copyright 0xelitesystem 2026.
+MIT, copyright RBL Industries LLC 2026.
